@@ -9,7 +9,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
+body{
+    background-color: rgb(255, 255, 255);
+}
 #main{
     height: 100%;
     width: 100%;
@@ -41,7 +43,7 @@ nav{
    
 }
 .right:hover{
-    background-color: black;
+    background-color:rgb(102, 217, 102);
     color: white;
 }
 
@@ -87,16 +89,16 @@ nav{
     margin-bottom: 70px;
     padding-left: 50px;
 }
-button{
+.btn-btn{
     padding:7px 30px;
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(102, 217, 102);
     color: white;
     border: none;
     transition: all 0.2s linear;
     cursor: pointer;
 }
-button:hover{
+.btn-btn:hover{
     background-color: white;
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.693);
@@ -105,4 +107,120 @@ button:hover{
  .image{
     padding: 30px;
     margin-top: 20px;
+}
+
+.section2{
+    height: 100%;
+    width: 100%;
+    
+    padding: 0px 20px;
+    
+}
+.section2 .chocolate{
+    padding-top: 20px;
+    font-size: 20px;
+    
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services{
+    height: 100px;
+    width: 100%;
+}
+
+.raper{
+    padding-left: 55px;
+    display: flex;
+    gap: 50px;
+    
+}
+.raper>button{
+    padding: 0px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(102, 217, 102);
+    cursor: pointer;
+}
+.raper>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card{
+    height: 400px;
+    width: 100%;
+   
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.card-1{
+    border: 3px solid black;
+    height: 300px;
+    width: 50%;
+    background-color: white;
+    border-radius: 40px;
+    display: inline-flex;
+    position: relative;
+    
+}
+.card-2{
+     border: 3px solid black;
+    display: inline-flex;
+    height: 300px;
+    width: 50%;
+    background-color:rgb(102, 217, 102);
+    border-radius: 40px;
+    position: relative;
+}
+
+.right-text{
+  padding: 30px 60px;
+  
+
+}
+.right-text>h4{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-1>img{
+    height: 200px;
+    width: 100%;
+}
+.imgage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text{
+    padding: 30px 60px;
+}
+
+.left-text>h4{
+    position: absolute;
+    bottom: 0;
+       padding-bottom: 40px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.card-2>img{
+    height: 200px;
+    width: 100%
+
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
