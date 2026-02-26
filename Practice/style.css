@@ -14,6 +14,7 @@
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+   
 }
 
 html,
@@ -31,7 +32,7 @@ nav {
   position: fixed;
   justify-content: space-between;
   display: flex;
-  height: 50px;
+  height: 40px;
   width: 100%;
   padding-top: 10px;
   padding-inline: 4rem;
@@ -116,6 +117,7 @@ nav {
 }
 
 .image {
+  padding-block: 70px;
   padding: 30px;
   margin-top: 20px;
 }
@@ -482,6 +484,7 @@ nav {
   width: 100%;
 }
 .min-raper {
+  padding: 30px 0px;
   height: 100%;
   width: 100%;
 }
@@ -576,45 +579,42 @@ i {
   background-color: white;
   border-radius: 50%;
 }
-.section-9{
+.section-9 {
   height: 100vh;
   width: 100%;
-
 }
 
-.full-area{
+.full-area {
   height: 100%;
   width: 100%;
   padding: 10px 20px;
- 
 }
 
-.contact-us{
+.contact-us {
   display: flex;
   gap: 30px;
   padding-top: 110px;
   align-items: center;
-  
 }
 
-.contact-us>h1{
+.contact-us > h1 {
   background-color: #b9ff66;
   border: none;
   border-radius: 10px;
   padding: 2px 10px;
 }
 
-.gray-area{
+.gray-area {
   background-color: whitesmoke;
   height: 100%;
   width: 100%;
-  
+
   margin-top: 100px;
   border-radius: 50px;
   display: flex;
 }
 
-.form{
+.form {
   width: 100%;
   height: 100vh;
 
@@ -624,28 +624,25 @@ i {
   flex-direction: column;
   font-size: 30px;
 }
-.say{
+.say {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
 }
 
-
-
-.form-area input{
-    padding: 3vh 12vw;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-  
-}
-
-.form-area h6{
+.form-area input {
+  padding: 3vh 12vw;
+  border: 1px solid black;
+  border-radius: 10px;
   margin-top: 10px;
 }
 
-.form>button{
+.form-area h6 {
+  margin-top: 10px;
+}
+
+.form > button {
   margin-top: 20px;
   padding: 3vh 17vw;
   border: none;
@@ -655,15 +652,146 @@ i {
   cursor: pointer;
 }
 
-.section-10{
+.section-10 {
   width: 100%;
-  height: 60vh;
-    padding-top: 300px;
-  background-color: red;
+  height: 80vh;
+  padding-top: 300px;
 }
-.About-us-page{
-  height: 100vh;
+.About-us-page {
+  height: 80vh;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
 
+.about-nav {
+  height: 100%;
+  width: 95%;
+  background-color: black;
+    border-radius: 40px 40px 0 0;
+  padding-inline: 50px;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  height: 8rem;
+  background-color: black;
+}
+
+.detail-child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media img {
+  height: 40px;
+  width: 40px;
+}
+.contact-me {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 230px;
+
+  display: flex;
+  border-bottom:  2px solid rgb(255, 255, 255);
+
+}
+
+.contact-me .left-contact {
+  height: 100%;
+  width: 40%;
+ 
+  padding: 50px;
+}
+.left-contact h4 {
+  margin-bottom: 10px;
+  color: #b9ff66;
+}
+
+.left-contact p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  font: bolder;
+  color: white;
+}
+
+.right-form {
+
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-form .emails {
+  display: flex;
+  flex-direction: column;
+
+  height: 150px;
+  width: 80%;
+  border-radius: 30px;
+}
+.final-input {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.final-input input {
+  border-radius: 20px;
+  border: none;
+  height: 70px;
+  width: 40%;
+  padding-block: 15px;
+}
+.final-input h4 {
+  background-color: rgb(255, 255, 255);
+
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  width: 40%;
+  cursor: pointer;
+  height: 70px;
+  background-color: #b9ff66;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bottom-area{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  color: white;
+  font-size: 20px;
+  font: bolder;
+  font-weight: 800;
 }
