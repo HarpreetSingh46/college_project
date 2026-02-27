@@ -371,3 +371,182 @@ nav ul{
     cursor: pointer;
 
 }
+/* ============================= */
+/* 📱 TABLET RESPONSIVE (992px) */
+/* ============================= */
+
+@media (max-width: 992px){
+
+    .mainPage{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mainPage img{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .card .crd{
+        margin: 15px;
+    }
+
+    .trd{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trending{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trending img{
+        width: 100%;
+    }
+
+    .letter{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer .Ftext{
+        margin: 20px;
+    }
+
+    .aboutus{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .aboutus img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .connect{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact img{
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+/* ============================= */
+/* 📱 MOBILE RESPONSIVE (600px) */
+/* ============================= */
+
+@media (max-width: 600px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav .logo{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    ul{
+        margin-right: 0;
+    }
+
+    ul li a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .text h1{
+        font-size: 34px;
+    }
+
+    .text h2{
+        font-size: 20px;
+    }
+
+    .text button{
+        width: 120px;
+        font-size: 18px;
+    }
+
+    .mainPage img{
+        width: 90%;
+    }
+
+    .card .crd{
+        width: 90%;
+        height: auto;
+    }
+
+    .card .crd:hover{
+        width: 95%;
+        height: auto;
+    }
+
+    .trending{
+        width: 95%;
+    }
+
+    .letter .inp{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .letter .inp input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .inp button{
+        width: 100%;
+    }
+
+    .form input{
+        width: 90%;
+    }
+
+    .form button{
+        width: 90%;
+    }
+
+    .aboutus{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .connectText{
+        padding: 25px;
+    }
+
+    .fullPage{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fullPage img{
+        width: 90%;
+    }
+
+}
